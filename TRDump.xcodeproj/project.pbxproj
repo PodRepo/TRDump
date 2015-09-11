@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C08809C61BA2F26E00FE6C2F /* TRDump.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C08809C51BA2F26E00FE6C2F /* TRDump.h */; };
+		C08809C81BA2F26E00FE6C2F /* TRDump.m in Sources */ = {isa = PBXBuildFile; fileRef = C08809C71BA2F26E00FE6C2F /* TRDump.m */; };
+		C08809CE1BA2F26E00FE6C2F /* libTRDump.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C08809C21BA2F26E00FE6C2F /* libTRDump.a */; };
+		C08809DD1BA2F2C000FE6C2F /* TRDump.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C08809DC1BA2F2C000FE6C2F /* TRDump.podspec */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C08809CF1BA2F26E00FE6C2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C08809BA1BA2F26E00FE6C2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C08809C11BA2F26E00FE6C2F;
+			remoteInfo = TRDump;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C08809C01BA2F26E00FE6C2F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C08809C61BA2F26E00FE6C2F /* TRDump.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C08809C21BA2F26E00FE6C2F /* libTRDump.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTRDump.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C08809C51BA2F26E00FE6C2F /* TRDump.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRDump.h; sourceTree = "<group>"; };
+		C08809C71BA2F26E00FE6C2F /* TRDump.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRDump.m; sourceTree = "<group>"; };
+		C08809CD1BA2F26E00FE6C2F /* TRDumpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRDumpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C08809D31BA2F26E00FE6C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C08809DC1BA2F2C000FE6C2F /* TRDump.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TRDump.podspec; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C08809BF1BA2F26E00FE6C2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C08809CA1BA2F26E00FE6C2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C08809CE1BA2F26E00FE6C2F /* libTRDump.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C08809B91BA2F26E00FE6C2F = {
+			isa = PBXGroup;
+			children = (
+				C08809DC1BA2F2C000FE6C2F /* TRDump.podspec */,
+				C08809C41BA2F26E00FE6C2F /* TRDump */,
+				C08809D11BA2F26E00FE6C2F /* TRDumpTests */,
+				C08809C31BA2F26E00FE6C2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C08809C31BA2F26E00FE6C2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C08809C21BA2F26E00FE6C2F /* libTRDump.a */,
+				C08809CD1BA2F26E00FE6C2F /* TRDumpTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C08809C41BA2F26E00FE6C2F /* TRDump */ = {
+			isa = PBXGroup;
+			children = (
+				C08809C51BA2F26E00FE6C2F /* TRDump.h */,
+				C08809C71BA2F26E00FE6C2F /* TRDump.m */,
+			);
+			path = TRDump;
+			sourceTree = "<group>";
+		};
+		C08809D11BA2F26E00FE6C2F /* TRDumpTests */ = {
+			isa = PBXGroup;
+			children = (
+				C08809D21BA2F26E00FE6C2F /* Supporting Files */,
+			);
+			path = TRDumpTests;
+			sourceTree = "<group>";
+		};
+		C08809D21BA2F26E00FE6C2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C08809D31BA2F26E00FE6C2F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C08809C11BA2F26E00FE6C2F /* TRDump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C08809D61BA2F26E00FE6C2F /* Build configuration list for PBXNativeTarget "TRDump" */;
+			buildPhases = (
+				C08809BE1BA2F26E00FE6C2F /* Sources */,
+				C08809BF1BA2F26E00FE6C2F /* Frameworks */,
+				C08809C01BA2F26E00FE6C2F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRDump;
+			productName = TRDump;
+			productReference = C08809C21BA2F26E00FE6C2F /* libTRDump.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C08809CC1BA2F26E00FE6C2F /* TRDumpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C08809D91BA2F26E00FE6C2F /* Build configuration list for PBXNativeTarget "TRDumpTests" */;
+			buildPhases = (
+				C08809C91BA2F26E00FE6C2F /* Sources */,
+				C08809CA1BA2F26E00FE6C2F /* Frameworks */,
+				C08809CB1BA2F26E00FE6C2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C08809D01BA2F26E00FE6C2F /* PBXTargetDependency */,
+			);
+			name = TRDumpTests;
+			productName = TRDumpTests;
+			productReference = C08809CD1BA2F26E00FE6C2F /* TRDumpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C08809BA1BA2F26E00FE6C2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "joshua li";
+				TargetAttributes = {
+					C08809C11BA2F26E00FE6C2F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C08809CC1BA2F26E00FE6C2F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = C08809BD1BA2F26E00FE6C2F /* Build configuration list for PBXProject "TRDump" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C08809B91BA2F26E00FE6C2F;
+			productRefGroup = C08809C31BA2F26E00FE6C2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C08809C11BA2F26E00FE6C2F /* TRDump */,
+				C08809CC1BA2F26E00FE6C2F /* TRDumpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C08809CB1BA2F26E00FE6C2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C08809DD1BA2F2C000FE6C2F /* TRDump.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C08809BE1BA2F26E00FE6C2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C08809C81BA2F26E00FE6C2F /* TRDump.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C08809C91BA2F26E00FE6C2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C08809D01BA2F26E00FE6C2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C08809C11BA2F26E00FE6C2F /* TRDump */;
+			targetProxy = C08809CF1BA2F26E00FE6C2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C08809D41BA2F26E00FE6C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C08809D51BA2F26E00FE6C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C08809D71BA2F26E00FE6C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C08809D81BA2F26E00FE6C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C08809DA1BA2F26E00FE6C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TRDumpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C08809DB1BA2F26E00FE6C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TRDumpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C08809BD1BA2F26E00FE6C2F /* Build configuration list for PBXProject "TRDump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C08809D41BA2F26E00FE6C2F /* Debug */,
+				C08809D51BA2F26E00FE6C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C08809D61BA2F26E00FE6C2F /* Build configuration list for PBXNativeTarget "TRDump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C08809D71BA2F26E00FE6C2F /* Debug */,
+				C08809D81BA2F26E00FE6C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C08809D91BA2F26E00FE6C2F /* Build configuration list for PBXNativeTarget "TRDumpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C08809DA1BA2F26E00FE6C2F /* Debug */,
+				C08809DB1BA2F26E00FE6C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C08809BA1BA2F26E00FE6C2F /* Project object */;
+}
